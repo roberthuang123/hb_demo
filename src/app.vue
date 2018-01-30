@@ -2,15 +2,16 @@
 export default {
 	config: {
 		"pages":[
+			"pages/page_a/page_a",
 			"pages/index/index",
 			"pages/logs/logs"
 		],
-	  	"window":{
-	    	"backgroundTextStyle":"light",
-		    "navigationBarBackgroundColor": "#fff",
-		    "navigationBarTitleText": "WeChat",
-		    "navigationBarTextStyle":"black"
-	  	}
+		"window":{
+			"backgroundTextStyle":"light",
+			"navigationBarBackgroundColor": "#fff",
+			"navigationBarTitleText": "WeChat",
+			"navigationBarTextStyle":"black"
+		}
 	},
 	data () {
 		return {
