@@ -58,8 +58,7 @@ export default {
           var list = ['快去吃饭，小秋秋！', '多吃点啊，小秋秋！', '快点睡觉，小秋秋！']
           wx.showToast({
             title: list[res.tapIndex],
-            icon: 'none',
-            duration: 1500
+            icon: 'none'
           })
         },
         fail: function(res) {
